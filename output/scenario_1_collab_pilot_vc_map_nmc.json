@@ -1,0 +1,83 @@
+{
+    "img": "/data/scenario_1_collab_pilot_vc_map_nmc.jpg",
+    "title": "Interactive Value Chain Map - Collaborative Pilot - Scenario 1 (NMC)",
+    "appConfigName": "",
+    "areas": [
+        {
+            "alt": "DFR - Copper Smelter/Refiner - Location N",
+            "title": "DFR - Copper Smelter/Refiner - Location N",
+            "links": [
+                {
+                    "type": "external",
+                    "disabled": false,
+                    "title": "DFR - Copper Smelter/Refiner - Location N",
+                    "href": "",
+                    "sample_credential": "https://idr.rbtp.pyx.io/api/1.0.0/gs1/414/8787870000006"
+                }
+            ],
+            "coords": "153,364,579,592",
+            "shape": "rect",
+            "documentation": {
+                "title": "About DFR",
+                "link": "https://docs.rbtp.pyx.io/docs/credential-overviews/digital-facility-record/"
+            }
+        },
+        {
+            "alt": "DCC - Copper Mark - Location N",
+            "title": "DCC - Copper Mark - Location N",
+            "links": [
+                {
+                    "type": "external",
+                    "disabled": false,
+                    "title": "DCC - Copper Mark - Location N",
+                    "href": "",
+                    "sample_credential": "https://idr.rbtp.pyx.io/api/1.0.0/gs1/01/8883098787877/21/DCC_01"
+                }
+            ],
+            "coords": "162,699,578,916",
+            "shape": "rect",
+            "documentation": {
+                "title": "About DCC",
+                "link": "https://docs.rbtp.pyx.io/docs/credential-overviews/digital-conformity-credential/"
+            }
+        },
+        {
+            "alt": "DTE - Transformation - Location N",
+            "title": "DTE - Transformation - Location N",
+            "links": [
+                {
+                    "type": "external",
+                    "disabled": false,
+                    "title": "DTE - Transformation - Location N",
+                    "href": "",
+                    "sample_credential": "https://idr.rbtp.pyx.io/api/1.0.0/gs1/01/87878702000162/21/DTE_01"
+                }
+            ],
+            "coords": "147,1703,573,1909",
+            "shape": "rect",
+            "documentation": {
+                "title": "About DTE",
+                "link": "https://docs.rbtp.pyx.io/docs/credential-overviews/digital-traceability-event/"
+            }
+        },
+        {
+            "alt": "DPP - Copper Cathode - Location N",
+            "title": "DPP - Copper Cathode - Location N",
+            "links": [
+                {
+                    "type": "external",
+                    "disabled": false,
+                    "title": "DPP - Copper Cathode - Location N",
+                    "href": "",
+                    "sample_credential": "https://idr.rbtp.pyx.io/api/1.0.0/gs1/01/18787870000008/21/DPP_01"
+                }
+            ],
+            "coords": "695,1703,1119,1915",
+            "shape": "rect",
+            "documentation": {
+                "title": "About DPP",
+                "link": "https://docs.rbtp.pyx.io/docs/credential-overviews/digital-product-passport/"
+            }
+        }
+    ]
+}
