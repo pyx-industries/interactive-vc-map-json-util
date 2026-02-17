@@ -17,12 +17,13 @@ Controls:
   s           → save JSON
   q           → quit
 """
+
 # ────────────────────────────────────────────────
 #  Configuration
 # ────────────────────────────────────────────────
 
 INPUT_FILE = input("Enter the image file name (with .jpg): ").strip()
-BRAND_NAME = input("Enter the brand name: (i.e. Fairpoint, BCMine)").strip()
+BRAND_NAME = input("Enter the brand name (i.e. Fairpoint, BCMine)":).strip()
 
 IMAGE_PATH = f"./images/{INPUT_FILE}"
 OUTPUT_JSON = f"./output/{INPUT_FILE.replace('.jpg', '.json')}"
@@ -117,7 +118,7 @@ def draw_rectangle(event, x, y, flags, param):
             x2, y2 = max(start_point[0], x), max(start_point[1], y)
             coords = f"{x1},{y1},{x2},{y2}"
 
-            title = input("Title (e.g. always start with DFR, DPP, DCC, DTE): ").strip()
+            title = input("Title (always start with DFR, DPP, DCC, DTE): ").strip()
             sample_cred = input("Sample Credential URL: ").strip()
 
             prefix = title.split(" - ")[0].strip()
