@@ -23,7 +23,7 @@ Controls:
 # ────────────────────────────────────────────────
 
 INPUT_FILE = input("Enter the image file name (with .jpg): ").strip()
-BRAND_NAME = input("Enter the brand name (i.e. Fairpoint, BCMine)":).strip()
+BRAND_NAME = input("Enter the brand name (i.e. Fairpoint, BCMine): ").strip()
 
 IMAGE_PATH = f"./images/{INPUT_FILE}"
 OUTPUT_JSON = f"./output/{INPUT_FILE.replace('.jpg', '.json')}"
